@@ -12,7 +12,7 @@ function App() {
           ¡Una sorpresa para ti, mi amor! 💖
         </h1>
         <p className="text-gray-600 mb-6">
-          Como desarrolladores, te hice algo especial. Haz clic en los botones para descubrir tus regalos.
+          Eres mi princesa👑 y te mereces todo el mundo, por lo que te tengo dos regalos. Haz clic en los botones para descubrir tus regalos.
         </p>
         <div className="flex justify-center gap-4 mb-6">
           <button
@@ -31,7 +31,7 @@ function App() {
         {showGift1 && (
           <div className="mb-4 animate-fade-in">
             <img
-              src="/gift1.jpg"
+              src="/Boleto_Badbunny.jpg"
               alt="Regalo 1"
               className="w-full rounded-lg shadow-md"
             />
@@ -41,7 +41,7 @@ function App() {
         {showGift2 && (
           <div className="animate-fade-in">
             <img
-              src="/gift2.jpg"
+              src="/Boleto_Sorpresa.jpg"
               alt="Regalo 2"
               className="w-full rounded-lg shadow-md"
             />
